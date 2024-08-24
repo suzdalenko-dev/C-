@@ -5,16 +5,21 @@ using namespace std;
 
 int main()
 {
+https://youtu.be/HxJt3yJjmV4?list=PLDkrNO-iQ9O4cLL0_jIIOwsXsQqfUXyQy
+
     const int monthsInYear = 12;
-    double principal       = 10000000.0;
+    double principal       = 0.0;
+    cout << "Enter the principal amounth:";
+    cin >> principal;
+
     double interest        = 0.05;
     int yeartOfLoan        = 30;
     double monthInterest   = interest / MONTHS_IN_YEAR;
-    long mothOfLoan = yeartOfLoan * monthsInYear;
+    long mothOfLoan        = yeartOfLoan * monthsInYear;
+
+    std::cout << principal << " " << mothOfLoan << endl;
 
 
-    std::cout << mothOfLoan;
-https://youtu.be/ZIWzuZcpIRU?list=PLDkrNO-iQ9O4cLL0_jIIOwsXsQqfUXyQy
 
     if (__cplusplus == 199711L) {
         std::cout << "C++98/03 (ISO/IEC 14882:1998 or 2003)" << std::endl;
@@ -38,5 +43,5 @@ https://youtu.be/ZIWzuZcpIRU?list=PLDkrNO-iQ9O4cLL0_jIIOwsXsQqfUXyQy
         std::cout << "Pre-standard C++ (before C++98)" << std::endl;
     }
 
-    std::cout << "__cplusplus: " << __cplusplus << std::endl;
+    // std::cout << "__cplusplus: " << __cplusplus << std::endl;
 }
