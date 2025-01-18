@@ -50,7 +50,7 @@
 				"/std::c++latest",
 				"/EHsc",
 				"/Fe:",
-				"${fileDirname}\\out\\${fileBasenameNoExtension}.exe",
+				"${fileDirname}\\z_out\\${fileBasenameNoExtension}.exe",
 				"${workspaceFolder}\\*.cpp"
 			],
 			"options": {
