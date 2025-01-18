@@ -47,7 +47,7 @@
 			"command": "cl.exe",
 			"args": [
 				"/Zi",
-				"/std::c++latest",
+				"/std:c++20",
 				"/EHsc",
 				"/Fe:",
 				"${fileDirname}\\z_out\\${fileBasenameNoExtension}.exe",
