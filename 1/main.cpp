@@ -1,0 +1,15 @@
+#include <iostream>
+
+
+int main(){
+    std::string name = "name hello world";    
+
+    std::cout << name << std::endl;
+
+
+    return 0;
+}
+
+/*
+    https://youtu.be/RnZ83rds-lI?t=10290
+*/
